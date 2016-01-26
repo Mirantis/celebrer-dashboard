@@ -10,8 +10,6 @@ ADD_INSTALLED_APPS = [
 ]
 
 ADD_JS_FILES = [
-    'celebrerdashboard/js/murano.service.js',
-    'celebrerdashboard/js/upload_form.js',
-    'celebrerdashboard/js/import_bundle_form.js',
+    'celebrerdashboard/js/celebrer.js',
 ]
 
