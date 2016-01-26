@@ -13,7 +13,7 @@
 from django.conf.urls import patterns
 from django.conf.urls import url
 
-from openstack_dashboard.dashboards.celebrerdashboard.cpanel import views
+from celebrerdashboard.cpanel import views
 
 
 urlpatterns = patterns('',

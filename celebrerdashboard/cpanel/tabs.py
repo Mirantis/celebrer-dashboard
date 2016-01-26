@@ -4,7 +4,7 @@ from horizon import exceptions
 from horizon import tabs
 
 from openstack_dashboard import api
-from openstack_dashboard.dashboards.celebrerdashboard.cpanel import tables
+from celebrerdashboard.cpanel import tables
 
 
 class InstanceTab(tabs.TableTab):

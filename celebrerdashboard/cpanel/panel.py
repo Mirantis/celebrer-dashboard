@@ -13,7 +13,7 @@
 from django.utils.translation import ugettext_lazy as _
 
 import horizon
-from openstack_dashboard.dashboards.celebrerdashboard import dashboard
+from celebrerdashboard import dashboard
 
 
 class Cpanel(horizon.Panel):

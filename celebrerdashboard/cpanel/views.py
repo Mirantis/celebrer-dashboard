@@ -13,7 +13,7 @@
 
 from horizon import tabs
 
-from openstack_dashboard.dashboards.celebrerdashboard.cpanel import tabs as celebrer_tabs
+from celebrerdashboard.cpanel import tabs as celebrer_tabs
 
 
 class IndexView(tabs.TabbedTableView):
@@ -22,5 +22,5 @@ class IndexView(tabs.TabbedTableView):
 
     def get_data(self, request, context, *args, **kwargs):
         # Add data to the context here...
-	
         return context
+

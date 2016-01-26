@@ -6,7 +6,6 @@ DISABLED = False
 
 ADD_INSTALLED_APPS = [
     'celebrerdashboard',
-    # 'openstack_dashboard.dashboards.celebrerdashboard',
 ]
 
 ADD_JS_FILES = [
